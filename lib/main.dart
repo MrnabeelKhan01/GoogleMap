@@ -1,6 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
+import 'package:google_map/presentation/view/polyline_map/polyline_map_view.dart';
 
 import 'presentation/view/map/map_view.dart';
 import 'presentation/view/user_current_location/current_location_view.dart';
@@ -18,9 +19,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
 
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.green,
       ),
-      home:CurrentLocationView(),
+      home:const PolyLineView(),
     );
   }
 }

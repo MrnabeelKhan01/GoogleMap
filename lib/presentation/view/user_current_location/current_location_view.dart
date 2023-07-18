@@ -18,6 +18,7 @@ class CurrentLocationViewState extends State<CurrentLocationView> {
     zoom: 14.4746,
   );
   List<Marker> marker = [];
+
   final List<Marker> _list = [
     const Marker(
       infoWindow: InfoWindow(title: "My Shops"),
